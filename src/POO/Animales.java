@@ -57,6 +57,10 @@ public class Animales {
                 '}';
     }
 
+
+    public void hacerSonido(){
+        System.out.println("El animal hace su sonido");
+    }
     public static void main(String[] args) {
         //Creando un objeto
         System.out.println("Creando un objeto" );

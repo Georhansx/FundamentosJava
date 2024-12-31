@@ -38,15 +38,14 @@ public class Perro extends Animales{
                 '}';
     }
 
+    @Override
     public void hacerSonido(){
-        System.out.println("El Perro ladra");
-        System.out.println("El Perro ladra2");
+        System.out.println("Guau");
     }
 
     public static void main(String[] args) {
 
         Perro perro1 = new Perro( "Firulais", "Casa", 15, false, "chihuahua", "hembra" );
-        perro1.hacerSonido();
     }
 }
 
